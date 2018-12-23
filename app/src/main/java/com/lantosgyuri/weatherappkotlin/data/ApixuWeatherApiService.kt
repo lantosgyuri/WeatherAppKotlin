@@ -1,7 +1,7 @@
 package com.lantosgyuri.weatherappkotlin.data
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.lantosgyuri.weatherappkotlin.data.response.CurrentWeatherResponse
+import com.lantosgyuri.weatherappkotlin.data.network.CurrentWeatherResponse
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

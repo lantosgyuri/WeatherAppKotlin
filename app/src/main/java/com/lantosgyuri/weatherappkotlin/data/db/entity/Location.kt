@@ -1,4 +1,4 @@
-package com.lantosgyuri.weatherappkotlin.data.response
+package com.lantosgyuri.weatherappkotlin.data.db.entity
 
 import com.google.gson.annotations.SerializedName
 
