@@ -18,6 +18,17 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField 'String', "ApiKey", API_KEY
+            resValue 'string', "api_key", API_KEY
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField 'String', "ApiKey", API_KEY
+            resValue 'string', "api_key", API_KEY
         }
     }
 }

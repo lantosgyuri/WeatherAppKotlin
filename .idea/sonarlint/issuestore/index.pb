@@ -31,3 +31,25 @@ u
 Eapp/src/main/java/com/lantosgyuri/weatherappkotlin/ui/MainActivity.kt,8\f\8ff22203d81a4f3d28ce023728ea225cc2ec42ec
 Ç
 Rapp/src/main/java/com/lantosgyuri/weatherappkotlin/ui/settings/SettingsFragment.kt,2\5\251b16962aba2599aa8c47e564734f074401b45b
+~
+Napp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/entity/Condition.kt,4\c\4c976f83a2dee97f93667c94e85b213bf254e65a
+à
+Xapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/entity/CurrentWeatherEntry.kt,5\6\5690569d576925e8760a1d5843d60dc91e55e3ae
+}
+Mapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/entity/Location.kt,a\c\ac84143645b9c7a6e71309002d9bd7b769074164
+ó
+gapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/ImperialCurrentWeatherEntry.kt,9\8\98a1c7d17c1154b47131c75ddf8d84ba01bb21f3
+ï
+eapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/MetricCurrentWeatherEntry.kt,5\6\56556bd3749c8e1e076c72db6b2f0fab01cba2e1
+õ
+kapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/UnitSpesificCurrentWeatherEntry.kt,b\e\bebee460246da1248086ee739c4f38d4cace2ffa
+
+Oapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/CurrentWeatherDao.kt,a\b\ab476cee2979d6cb76636f004eb25cb7fbf12f93
+â
+Yapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/CurrentWeatherResponse.kt,c\2\c2a14e1b33f0deaaf7d800f73d694c6cfd2c76b1
+Å
+Qapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/ApixuWeatherApiService.kt,1\3\13fee78c6a7f6fbc7395529d9a11440a21563937
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+~
+Napp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/ForecastDatabase.kt,6\1\617106354055e84dea81a6d638bbab921fdabd9e

@@ -1,6 +1,7 @@
 package com.lantosgyuri.weatherappkotlin.data
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
+import com.lantosgyuri.weatherappkotlin.BuildConfig
 import com.lantosgyuri.weatherappkotlin.data.network.CurrentWeatherResponse
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
@@ -10,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-const val API_KEY = "e6c75897358441c4840150918182312"
+const val API_KEY = BuildConfig.ApiKey
 
 interface ApixuWeatherApiService {
 
