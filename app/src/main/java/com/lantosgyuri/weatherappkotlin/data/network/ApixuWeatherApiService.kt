@@ -1,8 +1,7 @@
-package com.lantosgyuri.weatherappkotlin.data
+package com.lantosgyuri.weatherappkotlin.data.network
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.lantosgyuri.weatherappkotlin.BuildConfig
-import com.lantosgyuri.weatherappkotlin.data.network.CurrentWeatherResponse
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -22,7 +21,9 @@ interface ApixuWeatherApiService {
     ): Deferred<CurrentWeatherResponse>
 
     companion object {
-        operator fun invoke(): ApixuWeatherApiService{
+        operator fun invoke(
+                connectivityInterceptor: ConnectivityInterceptor
+        ): ApixuWeatherApiService {
             val requestInterceptor = Interceptor{chain ->
 
                 val url = chain.request()
@@ -40,6 +41,7 @@ interface ApixuWeatherApiService {
 
             val okHttpClient = OkHttpClient.Builder()
                     .addInterceptor(requestInterceptor)
+                    .addInterceptor(connectivityInterceptor)
                     .build()
 
             return Retrofit.Builder()
