@@ -1,6 +1,6 @@
 package com.lantosgyuri.weatherappkotlin.data.db.unitlocalized
 
-interface UnitSpesificCurrentWeatherEntry {
+interface UnitSpecificCurrentWeatherEntry {
     val temperature: Double
     val conditionText: String
     val conditionIconUrl: String
