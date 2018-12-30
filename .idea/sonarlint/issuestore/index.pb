@@ -41,8 +41,6 @@ Mapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/entity/Location.kt,
 gapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/ImperialCurrentWeatherEntry.kt,9\8\98a1c7d17c1154b47131c75ddf8d84ba01bb21f3
 ï
 eapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/MetricCurrentWeatherEntry.kt,5\6\56556bd3749c8e1e076c72db6b2f0fab01cba2e1
-õ
-kapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/UnitSpesificCurrentWeatherEntry.kt,b\e\bebee460246da1248086ee739c4f38d4cace2ffa
 
 Oapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/CurrentWeatherDao.kt,a\b\ab476cee2979d6cb76636f004eb25cb7fbf12f93
 â
@@ -63,3 +61,11 @@ Yapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/ApixuWeatherApi
 [app/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/WeatherNetworkDataSource.kt,4\1\415c14c38e86931c4f91148f220eabceb3c23e0a
 è
 _app/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/WeatherNetworkDataSourceImpl.kt,3\2\32ab1449f794704d0a3ce27b6073710d5d1e3ecb
+õ
+kapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/UnitSpecificCurrentWeatherEntry.kt,1\7\179e60286b530f37018e91134d51cfbf948e8218
+à
+Xapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/repository/ForecastRepository.kt,6\b\6bc2429de39700d82583dc65ef2563143c465a5f
+å
+\app/src/main/java/com/lantosgyuri/weatherappkotlin/data/repository/ForecastRepositoryImpl.kt,9\1\91186cb8febd22a65598a00666ba13a08b114703
+y
+Iapp/src/main/java/com/lantosgyuri/weatherappkotlin/ForecastApplication.kt,4\4\44f9894fef882e3cd481c0096dca032adf5bb496
