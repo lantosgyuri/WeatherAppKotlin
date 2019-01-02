@@ -69,3 +69,13 @@ Xapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/repository/ForecastRepo
 \app/src/main/java/com/lantosgyuri/weatherappkotlin/data/repository/ForecastRepositoryImpl.kt,9\1\91186cb8febd22a65598a00666ba13a08b114703
 y
 Iapp/src/main/java/com/lantosgyuri/weatherappkotlin/ForecastApplication.kt,4\4\44f9894fef882e3cd481c0096dca032adf5bb496
+y
+Iapp/src/main/java/com/lantosgyuri/weatherappkotlin/internal/UnitSystem.kt,4\8\4862e800b6a4ac78be8e64fe46bf04efe49bb297
+—
+gapp/src/main/java/com/lantosgyuri/weatherappkotlin/ui/weather/current/CurrentWeatherViewModelFactory.kt,7\e\7ef44471fd816bec8bcbfa5d4072524b3d49a7a5
+|
+Lapp/src/main/java/com/lantosgyuri/weatherappkotlin/ui/base/ScopedFragment.kt,d\b\db769413265950e88006f248b27aebc99ea3ffe9
+x
+Happ/src/main/java/com/lantosgyuri/weatherappkotlin/internal/Delegates.kt,f\2\f29a40472c0adc9daaf0c558d318ba4964e00f76
+‹
+[app/src/main/java/com/lantosgyuri/weatherappkotlin/internal/glide/ForecastAppGlideModule.kt,7\3\734ad58a8672d60eac210041158fa08e5bb84df7
