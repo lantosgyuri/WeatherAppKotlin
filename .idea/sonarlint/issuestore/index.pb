@@ -79,3 +79,5 @@ x
 Happ/src/main/java/com/lantosgyuri/weatherappkotlin/internal/Delegates.kt,f\2\f29a40472c0adc9daaf0c558d318ba4964e00f76
 ‹
 [app/src/main/java/com/lantosgyuri/weatherappkotlin/internal/glide/ForecastAppGlideModule.kt,7\3\734ad58a8672d60eac210041158fa08e5bb84df7
+d
+4app/src/main/res/layout/current_weather_fragment.xml,e\f\efbde899705a482291a852cc50ba4bd21d31dc07
