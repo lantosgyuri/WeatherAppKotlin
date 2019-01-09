@@ -64,7 +64,7 @@ class ForecastRepositoryImpl(
 
     private suspend fun fetchCurrentWeather(){
         weatherNetworkDataSource.fetchCurrentWeather(
-                locationProvider.getPrefferedLocationString(),
+                locationProvider.getPreferredLocationString(),
                 Locale.getDefault().language)
     }
 
