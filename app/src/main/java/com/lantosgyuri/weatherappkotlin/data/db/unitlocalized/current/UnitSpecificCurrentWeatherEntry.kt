@@ -1,4 +1,4 @@
-package com.lantosgyuri.weatherappkotlin.data.db.unitlocalized
+package com.lantosgyuri.weatherappkotlin.data.db.unitlocalized.current
 
 interface UnitSpecificCurrentWeatherEntry {
     val temperature: Double

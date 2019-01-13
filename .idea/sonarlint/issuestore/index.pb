@@ -41,8 +41,6 @@ gapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/Imperi
 eapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/unitlocalized/MetricCurrentWeatherEntry.kt,5\6\56556bd3749c8e1e076c72db6b2f0fab01cba2e1
 
 Oapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/CurrentWeatherDao.kt,a\b\ab476cee2979d6cb76636f004eb25cb7fbf12f93
-‰
-Yapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/CurrentWeatherResponse.kt,c\2\c2a14e1b33f0deaaf7d800f73d694c6cfd2c76b1
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 ~
@@ -95,3 +93,17 @@ Papp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/WeathorLocationDao.k
 Tapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/provider/LocationProvider.kt,6\8\6881e89bcef8a3bb8f6a4a041b37731d294b8d70
 ˆ
 Xapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/provider/LocationProviderImpl.kt,9\c\9c75c2cc41810c3e5f6e3375f7d5263dfdc6bfae
+†
+Vapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/provider/PreferenceProvider.kt,0\5\055af8da5405f5df30a51465c614a9189c213c6f
+{
+Kapp/src/main/java/com/lantosgyuri/weatherappkotlin/internal/TaskDeferred.kt,7\b\7bd9a2fb478f02da3ecf5786fc44c3f59eda802a
+†
+Vapp/src/main/java/com/lantosgyuri/weatherappkotlin/ui/LifecycleBoundLocationManager.kt,0\5\05f9ae51811a9afc0c7c6cd27a63cad98e0e244a
+‘
+aapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/response/ForecastDaysContainer.kt,f\4\f44dfbe6b4b554bec7908bc3b940d704388e5d83
+‘
+aapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/network/response/FutureWeatherResponse.kt,3\3\334bbc1cb237914af3cb61d5eb99a9644990262b
+x
+Happ/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/entity/Day.kt,5\b\5b82f6dbee00e75f0a948c8594c2b424397b343a
+‡
+Wapp/src/main/java/com/lantosgyuri/weatherappkotlin/data/db/entity/FutureWeatherEntry.kt,9\0\90a879d21bb310013eda2b914ec870f368a6e9f0

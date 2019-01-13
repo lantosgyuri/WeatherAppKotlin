@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import com.lantosgyuri.weatherappkotlin.data.db.CurrentWeatherDao
 import com.lantosgyuri.weatherappkotlin.data.db.WeathorLocationDao
 import com.lantosgyuri.weatherappkotlin.data.db.entity.WeatherLocation
-import com.lantosgyuri.weatherappkotlin.data.db.unitlocalized.UnitSpecificCurrentWeatherEntry
-import com.lantosgyuri.weatherappkotlin.data.network.CurrentWeatherResponse
+import com.lantosgyuri.weatherappkotlin.data.db.unitlocalized.current.UnitSpecificCurrentWeatherEntry
 import com.lantosgyuri.weatherappkotlin.data.network.WeatherNetworkDataSource
+import com.lantosgyuri.weatherappkotlin.data.network.response.CurrentWeatherResponse
 import com.lantosgyuri.weatherappkotlin.data.provider.LocationProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

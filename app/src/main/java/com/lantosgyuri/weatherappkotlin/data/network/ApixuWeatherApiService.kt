@@ -2,6 +2,8 @@ package com.lantosgyuri.weatherappkotlin.data.network
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.lantosgyuri.weatherappkotlin.BuildConfig
+import com.lantosgyuri.weatherappkotlin.data.network.response.CurrentWeatherResponse
+import com.lantosgyuri.weatherappkotlin.data.network.response.FutureWeatherResponse
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -19,6 +21,13 @@ interface ApixuWeatherApiService {
             @Query("q") location: String,
             @Query("lang") languageCode: String = "en"
     ): Deferred<CurrentWeatherResponse>
+
+    @GET("forecast.json")
+    fun getFutureWeather(
+            @Query("q") location: String,
+            @Query("days") days: Int,
+            @Query("lang") languageCode: String = "en"
+    ): Deferred<FutureWeatherResponse>
 
     companion object {
         operator fun invoke(
