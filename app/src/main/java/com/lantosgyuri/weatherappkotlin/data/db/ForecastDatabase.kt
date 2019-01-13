@@ -11,7 +11,7 @@ import com.lantosgyuri.weatherappkotlin.data.db.entity.WeatherLocation
 
 @Database(
         entities = [CurrentWeatherEntry::class, WeatherLocation::class, FutureWeatherEntry::class],
-        version = 2
+        version = 1
 )
 @TypeConverters(LocalDateConverter::class)
 abstract class ForecastDatabase : RoomDatabase() {
